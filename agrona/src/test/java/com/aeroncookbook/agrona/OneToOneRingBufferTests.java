@@ -69,7 +69,7 @@ class OneToOneRingBufferTests
         private int count = 0;
 
         @Override
-        public ControlledMessageHandler.Action onMessage(final int msgTypeId,
+        public Action onMessage(final int msgTypeId,
             final MutableDirectBuffer buffer,
             final int index,
             final int length)

@@ -32,6 +32,7 @@ import org.agrona.CloseHelper;
 import org.agrona.DirectBuffer;
 import org.agrona.ExpandableArrayBuffer;
 import org.agrona.collections.MutableLong;
+import org.agrona.concurrent.BusySpinIdleStrategy;
 import org.agrona.concurrent.IdleStrategy;
 import org.agrona.concurrent.SleepingIdleStrategy;
 import org.agrona.concurrent.status.CountersReader;
@@ -51,7 +52,7 @@ public class SimplestCase
     private final int streamReplay = 17;
     private final int sendCount = 10_000;
 
-    private final IdleStrategy idleStrategy = new SleepingIdleStrategy();
+    private final IdleStrategy idleStrategy = new BusySpinIdleStrategy();
     private final ExpandableArrayBuffer buffer = new ExpandableArrayBuffer();
     private final File tempDir = Utils.createTempDir();
     boolean complete = false;

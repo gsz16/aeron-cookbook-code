@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21">
+      <module name="aeron-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aeron-cookbook.aeron-core" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-core.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-core.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-mdc.aeron-mdc-publisher" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-mdc.aeron-mdc-publisher.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-mdc.aeron-mdc-publisher.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-mdc.aeron-mdc-subscriber" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-mdc.aeron-mdc-subscriber.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.aeron-mdc.aeron-mdc-subscriber.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.agrona" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.agrona.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.agrona.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-core" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-core.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-core.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host-learning" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host-learning.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host-learning.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host.archive-client" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host.archive-client.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host.archive-client.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host.archive-host" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host.archive-host.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-multi-host.archive-host.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-backup" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-backup.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-backup.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-client" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-client.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-client.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-host" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-host.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.archive-host.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.common" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.common.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.archive-replication.common.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.async" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.async.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.async.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.cluster-rsm" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.cluster-rsm.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.cluster-rsm.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.ipc-core" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.ipc-core.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.ipc-core.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.admin" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.admin.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.admin.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.cluster" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.cluster-protocol" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.cluster-protocol.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.cluster-protocol.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.cluster.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.rfq.cluster.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.sbe-core" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.sbe-core.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.sbe-core.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.sbe-protocol" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.sbe-protocol.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.sbe-protocol.test" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.theory" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.theory.main" options="--release 21 -Xlint:all,-processing -Werror" />
+      <module name="aeron-cookbook.theory.test" options="--release 21 -Xlint:all,-processing -Werror" />
+    </option>
+  </component>
+</project>

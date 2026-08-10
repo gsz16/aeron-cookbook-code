@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aeron-core" />
+            <option value="$PROJECT_DIR$/aeron-mdc" />
+            <option value="$PROJECT_DIR$/aeron-mdc/aeron-mdc-publisher" />
+            <option value="$PROJECT_DIR$/aeron-mdc/aeron-mdc-subscriber" />
+            <option value="$PROJECT_DIR$/agrona" />
+            <option value="$PROJECT_DIR$/archive-core" />
+            <option value="$PROJECT_DIR$/archive-multi-host" />
+            <option value="$PROJECT_DIR$/archive-multi-host-learning" />
+            <option value="$PROJECT_DIR$/archive-multi-host/archive-client" />
+            <option value="$PROJECT_DIR$/archive-multi-host/archive-host" />
+            <option value="$PROJECT_DIR$/archive-replication" />
+            <option value="$PROJECT_DIR$/archive-replication/archive-backup" />
+            <option value="$PROJECT_DIR$/archive-replication/archive-client" />
+            <option value="$PROJECT_DIR$/archive-replication/archive-host" />
+            <option value="$PROJECT_DIR$/archive-replication/common" />
+            <option value="$PROJECT_DIR$/async" />
+            <option value="$PROJECT_DIR$/cluster-rsm" />
+            <option value="$PROJECT_DIR$/ipc-core" />
+            <option value="$PROJECT_DIR$/rfq" />
+            <option value="$PROJECT_DIR$/rfq/admin" />
+            <option value="$PROJECT_DIR$/rfq/cluster" />
+            <option value="$PROJECT_DIR$/rfq/cluster-protocol" />
+            <option value="$PROJECT_DIR$/sbe-core" />
+            <option value="$PROJECT_DIR$/sbe-protocol" />
+            <option value="$PROJECT_DIR$/theory" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
